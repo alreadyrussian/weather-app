@@ -1,0 +1,18 @@
+<% include ./partials/header %>
+<div class="container-fluid gradient">
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3 text-center center">
+            <div>
+               <img src="/img/meteo.png"> <img src="/img/myweather.png">
+               <form method="GET" action="/citta" >
+                   <div class="form-group">
+                        <input type="text" class="form-control mt-3 mod_input" name="search" placeholder="type your city">
+                   </div>
+                   <button class="btn bottone">Search</button>
+               </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+<% include ./partials/footer %>
