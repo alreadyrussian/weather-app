@@ -3,8 +3,6 @@
 A simple app to retrieve weather info for a specific city
 
 
-## Weather App
-
 ## Getting Started
 
 To start you need to download the folder on your machine
